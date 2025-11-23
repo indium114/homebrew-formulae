@@ -1,9 +1,9 @@
 class Redcards < Formula
   desc "A simple spaced repetition flashcard study tool"
   homepage ""
-  url "https://codeberg.org/StikyPiston/Redcards/archive/211125a.zip"
-  sha256 "f3c44487bbed3f553c13921dc98554637016a85290d135d3a6264f5b0d2dd366"
-  version "211125a"
+  url "https://codeberg.org/StikyPiston/Redcards/archive/231125a.zip"
+  sha256 "a5b8b2d6829ed96f75c8f01b23971239692f5216528166c42a2a06e192d6f526"
+  version "231125a"
   license "MIT"
   
   depends_on "ruby"
