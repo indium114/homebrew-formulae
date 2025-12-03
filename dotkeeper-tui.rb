@@ -1,8 +1,8 @@
-class Dotkeeper < Formula
-  desc "A dotfile management/symlink farm tool. Successor to rancher."
+class Dotkeeper-tui < Formula
+  desc "A TUI interface for Dotkeeper"
   homepage ""
   url "https://codeberg.org/StikyPiston/dotkeeper-tui/archive/031225a.zip"
-  sha256 "8cacd1dd27eb126b288bfc1e2122d9b18e48a374d839ca906ddbc99d4a3615ee"
+  sha256 "1152c2c614d9c9ea2dc60e22d3a4a3d252ef1a1f0c8002b017151db11d5acd3b"
   version "031225a"
   license "MIT"
   
