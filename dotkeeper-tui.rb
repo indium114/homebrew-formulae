@@ -1,4 +1,4 @@
-class Dotkeeper-tui < Formula
+class Dotkeepertui < Formula
   desc "A TUI interface for Dotkeeper"
   homepage ""
   url "https://codeberg.org/StikyPiston/dotkeeper-tui/archive/031225a.zip"
