@@ -1,4 +1,4 @@
-class ChessTUI < Formula
+class ChessTui < Formula
   desc "Play chess from your terminal"
   homepage "https://thomas-mauran.github.io/chess-tui/"
   url "https://github.com/thomas-mauran/chess-tui/releases/download/2.0.0/chess-tui-2.0.0-x86_64-unknown-linux-gnu.tar.gz"
