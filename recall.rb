@@ -1,9 +1,9 @@
 class Recall < Formula
   desc "A simple to-do list for the terminal. Written in Swift."
-  url "https://github.com/StikyPiston/recall/archive/refs/tags/161225a.zip"
+  url "https://github.com/StikyPiston/recall/archive/refs/tags/161225b.zip"
   homepage ""
-  sha256 "8fcb744c8554078c80e42c3671dd08ce2b7bbcc8fd06c19c729ea57d3ba78ac7"
-  version "161225a"
+  sha256 "d80a7754ecfb837b1fccc49f4fc58bb85f747b132b04a4213d76ce133025b77a"
+  version "161225b"
   license "MIT"
   
   depends_on "swift" => :build
