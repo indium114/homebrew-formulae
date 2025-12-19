@@ -1,17 +1,17 @@
 class Hocusfocus < Formula
   desc "A simple productivity-tracking tool"
   homepage ""
-  url "https://codeberg.org/StikyPiston/hocusfocus/archive/251025.zip"
-  sha256 "6ddba66d9fab290cbd45ec44b3185d7da550476eac54fd8ca6f7bdc1473c0325"
-  version "251025"
+  url "https://github.com/StikyPiston/hocusfocus/archive/refs/tags/191225b.zip"
+  sha256 "084c1113164f249c478e7987e19251581b42b31ad593855131064c22ded0504d"
+  version "191225b"
   license "MIT"
   
-  depends_on "ruby"
+  depends_on "swift" => :build
   depends_on "gnuplot"
 
   def install
-    system "gem install open3 colorize tty-prompt"
-    bin.install "hocusfocus"
+    system "swift build --configuration release"
+    bin.install ".build/release/hocusfocus"
   end
 
   test do
