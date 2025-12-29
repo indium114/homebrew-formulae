@@ -6,7 +6,10 @@ class ChessTui < Formula
   version "2.2.0"
   license "MIT"
 
+  depends_on "rustup" => :build
+
   def install
+    system "rustup default nightly"
     system "cargo build --release"
     bin.install "target/release/chess-tui"
   end
