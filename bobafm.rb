@@ -1,4 +1,4 @@
-class Dotkeeper < Formula
+class Bobafm < Formula
   desc "A simple TUI file manager, written in Go, using Bubble Tea."
   homepage ""
   url "https://github.com/StikyPiston/bobafm/archive/refs/tags/2026.01.01-a.zip"
