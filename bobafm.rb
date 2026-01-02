@@ -9,7 +9,8 @@ class Bobafm < Formula
   depends_on "go" => :build
 
   def install
-    system "go build"
+    ENV["CGO_ENABLED"] = "0"
+    system "go", "build", "-o", "bobafm"
     bin.install "bobafm"
   end
 
