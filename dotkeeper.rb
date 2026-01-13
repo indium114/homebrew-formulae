@@ -1,11 +1,11 @@
 class Dotkeeper < Formula
   desc "Dotfile management/symlink farm tool"
   homepage "https://github.com/stikypiston/dotkeeper"
-  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2025.12.19-a.zip"
+  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2025.12.19-a.tar.gz"
   version "2025.12.19-a"
-  sha256 "b84d19d95137f5d35d7471968b7fceba65bf89bc9798b150c86dd8fdc776db0f"
+  sha256 "d25ddc2f7e211f648300a4a4a257495a237d3eb0a76df946c54c83f9d76826b8"
   license "MIT"
- 
+
   depends_on "swift" => :build
 
   def install
