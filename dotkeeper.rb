@@ -1,5 +1,5 @@
 class Dotkeeper < Formula
-  desc "A dotfile management/symlink farm tool. Successor to rancher."
+  desc "Dotfile management/symlink farm tool"
   homepage "https://github.com/stikypiston/dotkeeper"
   url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2025.12.19-a.zip"
   version "2025.12.19-a"
@@ -9,7 +9,7 @@ class Dotkeeper < Formula
   depends_on "swift" => :build
 
   def install
-    system "swift" "build" "--configuration" "release"
+    system "swift build --configuration release"
     bin.install ".build/release/dotkeeper"
   end
 
