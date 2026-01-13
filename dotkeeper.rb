@@ -5,11 +5,11 @@ class Dotkeeper < Formula
   version "2025.12.19-a"
   sha256 "b84d19d95137f5d35d7471968b7fceba65bf89bc9798b150c86dd8fdc776db0f"
   license "MIT"
-  
+ 
   depends_on "swift" => :build
 
   def install
-    system "swift build --configuration release"
+    system "swift", "build", "--configuration", "release"
     bin.install ".build/release/dotkeeper"
   end
 
