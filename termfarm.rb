@@ -1,9 +1,9 @@
 class Termfarm < Formula
   desc "CLI idle farming game"
   homepage "https://github.com/stikypiston/termfarm"
-  url "https://github.com/StikyPiston/termfarm/archive/refs/tags/2026.01.15-a.tar.gz"
-  version "2026.01.15-a"
-  sha256 "5660dfd3af5ac8040d18b4feb45439ef1d91113a31ec7e1040af8dbebd207a0c"
+  url "https://github.com/StikyPiston/termfarm/archive/refs/tags/2026.01.16-a.tar.gz"
+  version "2026.01.16-a"
+  sha256 "6c1db16364d99194715155124c734a74de28633b8620b9347e4309f41c7ceeb4"
   license "MIT"
 
   depends_on "swift" => :build
