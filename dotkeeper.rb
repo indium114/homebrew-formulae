@@ -1,16 +1,16 @@
 class Dotkeeper < Formula
   desc "Dotfile management/symlink farm tool"
   homepage "https://github.com/stikypiston/dotkeeper"
-  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2025.12.19-a.tar.gz"
-  version "2025.12.19-a"
-  sha256 "d25ddc2f7e211f648300a4a4a257495a237d3eb0a76df946c54c83f9d76826b8"
+  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2026.01.29-a.tar.gz"
+  version "2026.01.29-a"
+  sha256 "33b774443a905fabd973621742e69d6cf4785b6ad4076a98fe87cc3a4a64d461"
   license "MIT"
 
-  depends_on "swift" => :build
+  depends_on "go" => :build
 
   def install
-    system "swift", "build", "--configuration", "release", "-Xswiftc", "-static-stdlib"
-    bin.install ".build/release/dotkeeper"
+    system "go", "build"
+    bin.install "dotkeeper"
   end
 
   test do
