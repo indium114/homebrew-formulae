@@ -3,7 +3,7 @@ class Dotkeeper < Formula
   homepage "https://github.com/stikypiston/dotkeeper"
   url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2026.01.29-a.tar.gz"
   version "2026.01.29-a"
-  sha256 "33b774443a905fabd973621742e69d6cf4785b6ad4076a98fe87cc3a4a64d461"
+  sha256 "3d6585c187bfa7aca3e6ec01ce4593db0ab25cdd45193626b0857f30ab4e5ae3"
   license "MIT"
 
   depends_on "go" => :build
