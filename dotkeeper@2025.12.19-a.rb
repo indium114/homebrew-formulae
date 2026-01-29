@@ -1,4 +1,4 @@
-class DotkeeperAT20251229A < Formula
+class DotkeeperAT20251219A < Formula
   desc "Dotfile management/symlink farm tool"
   homepage "https://github.com/stikypiston/dotkeeper"
   url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2025.12.19-a.tar.gz"
