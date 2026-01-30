@@ -1,16 +1,16 @@
 class Recall < Formula
   desc "A simple to-do list for the terminal. Written in Swift."
-  url "https://github.com/StikyPiston/recall/archive/refs/tags/2025.12.22-a.zip"
+  url "https://github.com/StikyPiston/recall/archive/refs/tags/2026.01.30-a.zip"
   homepage ""
-  sha256 "e200bda963cdf342abc9c0587561e04d593044b878589345a1255dd5396061f2"
-  version "2025.12.22-a"
+  sha256 "333de942af4267b59b3bb7f420566d22ee970c8c42e36768548f2b4249606e6f"
+  version "2026.01.30-a"
   license "MIT"
   
-  depends_on "swift" => :build
+  depends_on "go" => :build
 
   def install
-    system "swift build --configuration release"
-    bin.install ".build/release/recall"
+    system "go build"
+    bin.install "recall"
   end
 
   test do
