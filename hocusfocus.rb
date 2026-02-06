@@ -1,16 +1,16 @@
 class Hocusfocus < Formula
   desc "A simple productivity-tracking tool"
   homepage ""
-  url "https://github.com/StikyPiston/hocusfocus/archive/refs/tags/2025.12.21-b.zip"
-  sha256 "cc81377426fb40ce0df652cd0ba2e738c4297ca6773b1b8721d9250e43765630"
-  version "2025.12.21-b"
+  url "https://github.com/StikyPiston/hocusfocus/archive/refs/tags/2026.02.06-a.zip"
+  sha256 "b728aa04d737dac705a4b206bec88d2e6d08d19fec92ce0c7031f5961d057b3a"
+  version "2026.02.06-b"
   license "MIT"
   
-  depends_on "swift" => :build
+  depends_on "go" => :build
 
   def install
-    system "swift build --configuration release"
-    bin.install ".build/release/hocusfocus"
+    system "go build"
+    bin.install "hocusfocus"
   end
 
   test do
