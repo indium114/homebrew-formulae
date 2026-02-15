@@ -1,16 +1,16 @@
 class Fastcards < Formula
   desc "A CLI-based spaced repetition flashcard study tool"
   homepage ""
-  url "https://github.com/StikyPiston/fastcards/archive/refs/tags/2025.12.23-a.zip"
-  sha256 "6391912c13aa7a9048a542681e98b4fc3a46097a3c3760359944ddb5e34e72c0"
-  version "2025.12.23-a"
+  url "https://github.com/StikyPiston/fastcards/archive/refs/tags/2026.02.15-a.zip"
+  sha256 "cd3361dbfd438dcd399d46810ab4782eca23f697b97380c2b3a6f14ba8c0510a"
+  version "2026.02.15-a"
   license "MIT"
-  
-  depends_on "swift" => :build
+
+  depends_on "go" => :build
 
   def install
-    system "swift build --configuration release"
-    bin.install ".build/release/fastcards"
+    system "go build"
+    bin.install "fastcards"
   end
 
   test do
