@@ -1,16 +1,16 @@
 class Pricetag < Formula
   desc "A CLI-based file tagging tool"
   homepage ""
-  url "https://github.com/StikyPiston/pricetag/archive/refs/tags/2025.12.25-d.zip"
-  sha256 "9111c6b3efc937833290c5d8bde71a279bfabf5cf5239423518ec2a8ddd1b034"
-  version "2025.12.25-d"
+  url "https://github.com/StikyPiston/pricetag/archive/refs/tags/2026.02.26-a.zip"
+  sha256 "0290d863b7a1406abdd89e6de467fe96daa1a313f97148288a2fb23f5ad5bedd"
+  version "2026.02.26-a"
   license "MIT"
-  
-  depends_on "swift" => :build
+
+  depends_on "go" => :build
 
   def install
-    system "swift build --configuration release"
-    bin.install ".build/release/pricetag"
+    system "go build"
+    bin.install "pricetag"
   end
 
   test do
