@@ -1,9 +1,9 @@
 class Dotkeeper < Formula
   desc "Dotfile management/symlink farm tool"
   homepage "https://github.com/stikypiston/dotkeeper"
-  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2026.03.17-b.tar.gz"
-  version "2026.03.17-b"
-  sha256 "b930955aab5a66d51c12f53f1f3dc87165d163e69c14574695d2571e09178ff3"
+  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2026.03.22-a.tar.gz"
+  version "2026.03.22-a"
+  sha256 "49b0bd054e80369b0cf797bc413604a2f6d9dd4b943a44ba834e4e5a4cc1c785"
   license "MIT"
 
   depends_on "go" => :build
