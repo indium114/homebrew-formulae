@@ -1,9 +1,9 @@
 class Recall < Formula
-  desc "A simple to-do list for the terminal. Written in Swift."
-  url "https://github.com/StikyPiston/recall/archive/refs/tags/2026.03.04-b.zip"
+  desc "A simple to-do list for the terminal. Written in Go."
+  url "https://github.com/StikyPiston/recall/archive/refs/tags/2026.03.22-a.zip"
   homepage ""
-  sha256 "4a6e2b73007427873b6f79f555e2fb6630713a39f3a3e5a13cfe289c2a65ea49"
-  version "2026.03.04-b"
+  sha256 "f4000d9589692a120f45748045a56bfced9311a7ee6e7d254f52e613d9ff869e"
+  version "2026.03.22-a"
   license "MIT"
 
   depends_on "go" => :build
