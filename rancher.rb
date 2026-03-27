@@ -1,7 +1,7 @@
 class Rancher < Formula
   desc "A dotfile management/symlink farm tool"
-  homepage "https://codeberg.org/StikyPiston/rancher"
-  url "https://codeberg.org/StikyPiston/rancher/archive/231025.zip"
+  homepage "https://codeberg.org/indium114/rancher"
+  url "https://codeberg.org/indium114/rancher/archive/231025.zip"
   sha256 "b8852e435e468555035d4d78b7a29ac42ec61ddbdf264f43a57fca460745e932"
   license "MIT"
 

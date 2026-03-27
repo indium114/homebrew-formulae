@@ -1,7 +1,7 @@
 class HocusfocusAT251025 < Formula
   desc "A simple productivity-tracking tool"
   homepage ""
-  url "https://codeberg.org/StikyPiston/hocusfocus/archive/251025.zip"
+  url "https://codeberg.org/indium114/hocusfocus/archive/251025.zip"
   sha256 "6ddba66d9fab290cbd45ec44b3185d7da550476eac54fd8ca6f7bdc1473c0325"
   version "251025"
   license "MIT"

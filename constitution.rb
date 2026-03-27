@@ -1,7 +1,7 @@
 class Constitution < Formula
   desc "A tool to declaratively manage your system"
   homepage ""
-  url "https://codeberg.org/StikyPiston/Constitution/archive/241025.zip"
+  url "https://codeberg.org/indium114/Constitution/archive/241025.zip"
   sha256 "0993ae33faccfded159055a72c1d72cfb438506b31e3c250623f38ba846c6e53"
   version "241025"
   license "MIT"

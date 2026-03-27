@@ -1,7 +1,7 @@
 class DotkeeperAT20251219A < Formula
   desc "Dotfile management/symlink farm tool"
-  homepage "https://github.com/stikypiston/dotkeeper"
-  url "https://github.com/StikyPiston/dotkeeper/archive/refs/tags/2025.12.19-a.tar.gz"
+  homepage "https://github.com/indium114/dotkeeper"
+  url "https://github.com/indium114/dotkeeper/archive/refs/tags/2025.12.19-a.tar.gz"
   version "2025.12.19-a"
   sha256 "d25ddc2f7e211f648300a4a4a257495a237d3eb0a76df946c54c83f9d76826b8"
   license "MIT"
